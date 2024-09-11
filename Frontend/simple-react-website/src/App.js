@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="container">
       <Header />
-      <h1>Welcome</h1>
       <div className="button-container">
       <button onClick={() => setIsSignup(true)}>Signup</button>
       <button onClick={() => setIsSignup(false)}>Login</button>
